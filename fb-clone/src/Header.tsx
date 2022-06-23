@@ -14,7 +14,7 @@ import ForumIcon from "@mui/icons-material/Forum";
 import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-function Header() {
+export default function Header() {
   return (
     <div className="header">
       <div className="header_left">
@@ -73,5 +73,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;
